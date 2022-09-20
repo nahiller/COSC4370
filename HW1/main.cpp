@@ -11,10 +11,10 @@ int main() {
         double yLevel=0;
         yLevel=4096-(((x)/12)*((x)/12));
         yLevel=sqrt(yLevel);
-        yLevel*=6;
-        yLevel+=384;
+        yLevel*=6.0;
+        yLevel+=384.0;
         cout<<yLevel<<endl;
-        double distance=yLevel-384;
+        double distance=yLevel-384.0;
         distance*=2;
         bmpNew.set_pixel(x, yLevel, 255, 255, 255, 0);
         bmpNew.set_pixel(x, yLevel-distance, 255, 255, 255, 0);
