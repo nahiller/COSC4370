@@ -15,7 +15,7 @@ int main() {
         yLevel+=384.0;
         cout<<yLevel<<endl;
         float distance=yLevel-384.0;
-        distance*=2;
+        distance*=2.00;
         bmpNew.set_pixel(x, yLevel, 255, 255, 255, 0);
         bmpNew.set_pixel(x, yLevel-distance, 255, 255, 255, 0);
     }
