@@ -13,7 +13,7 @@
  * button zooms, and the keyboard controls which       *
  * problem to display.                                 *
  *                                                     *
- * For Linux/OS X:                                     *
+ * For Linux/OS_X:                                     *
  * To compile your program, just type "make" at the    *
  * command line.  Typing "make clean" will remove all  *
  * computer-generated files.  Run by typing "./hw2"    *
