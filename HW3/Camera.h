@@ -1,4 +1,4 @@
-
+// I used the following resource to help with my code https://learnopengl.com/code_viewer_gh.php?code=includes/learnopengl/camera.h
 
 #pragma once
 
@@ -66,9 +66,12 @@ public:
     }
 
     // TODO: Returns the view matrix calculated using Eular Angles and the LookAt Matrix
-    glm::mat4 GetViewMatrix()
+    
+glm::mat4 GetViewMatrix()
     {
-
+        return glm::lookAt(this->Position, this->Position + this->Front, this->Up);
+  
+    
     }
 
     // Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)

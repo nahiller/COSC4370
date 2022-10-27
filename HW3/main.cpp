@@ -1,4 +1,4 @@
-
+// I used the following resource to help me with my code https://learnopengl.com/code_viewer.php?code=lighting/materials
 #include <iostream>
 #include <cmath>
 
@@ -189,10 +189,13 @@ int main()
 
 
 
-        // Create camera transformations
-        glm::mat4 view;
-        view = camera.GetViewMatrix();
-        glm::mat4 projection;
+      glm::mat4 view;
+      view = camera.GetViewMatrix();
+      //glm::mat4 projection;
+      glm::mat4 projection;
+      projection = glm::perspective(camera.Zoom, (float)WIDTH / (float)HEIGHT, 0.1f, 100.0f);
+      // Create camera transformations
+    
         // TODO: set up the project matrix
 
 
