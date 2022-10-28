@@ -1,0 +1,11 @@
+For HW3 I used online resources to help me with the assignment. I used artciles on learnOpenGL because I was having lots of issues getting my 
+code to produce what was in the assignment directions. Credit towards the resources I used, I want to avoid plagerism so that is why
+I linked them in my source code at the top and I included them in the written report as well. This is my last place to make sure that 
+I'm covered. Thank you 
+
+Main file- https://learnopengl.com/code_viewer.php?code=lighting/materials
+Camera- https://learnopengl.com/code_viewer_gh.php?code=includes/learnopengl/camera.h
+Phong.frag- https://learnopengl.com/code_viewer.php?code=lighting/basic_lighting-exercise2
+Phong.vs- https://learnopengl.com/code_viewer.php?code=lighting/basic_lighting-exercise2
+
+Nickolaus Hiller 1896327
