@@ -1,0 +1,11 @@
+For HW3 I used online resources to help me with the assignment. I used GitHub because I was having lots of issues getting my 
+code to produce what was in the assignment directions. Credit towards the resources I used, I want to avoid plagerism so that is why
+I included them in the written report as well. This is my last place to make sure that I'm covered. Thank you 
+
+Main- https://github.com/nimelica/COSC4370/blob/main/hw4/main.cpp
+Camera- https://github.com/nimelica/COSC4370/blob/main/hw4/Camera.h
+Texture.frag- https://github.com/nimelica/COSC4370/blob/main/hw4/texture.frag
+Texture.vs- https://github.com/nimelica/COSC4370/blob/main/hw4/texture.vs
+
+
+Nickolaus Hiller 1896327
